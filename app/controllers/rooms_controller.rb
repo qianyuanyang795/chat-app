@@ -1,5 +1,6 @@
 class RoomsController < ApplicationController
-  def index
+  def new
+    @room = Room.new
   end
 
   def create
@@ -10,6 +11,8 @@ class RoomsController < ApplicationController
       render :new
     end
   end
+
+
 
   def destroy
     room = Room.find(params[:id])
