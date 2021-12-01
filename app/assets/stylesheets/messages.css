@@ -15,7 +15,7 @@
 
 .room {
   background-color: #2F3E51;
-  height: calc(100ph - 100px);
+  height: calc(100vh - 100px);
 }
 
 .chat {
@@ -27,7 +27,7 @@
 .chat-header  {
   background-color: #FFFFFF;
   height: 100px;
-  width: 100vw-300px;
+  width: calc(100vw-300px);
   display: flex;
   justify-content: space-between;
 }
@@ -107,9 +107,6 @@
 .room-name a {
   text-decoration: none;
   color: white;
-}
-  
-  
 }
 
 .chat {
